@@ -23,5 +23,20 @@ int main() {
         casa_rainha++;
     } while(casa_rainha <= 8);
 
+    // MOVIMENTO DO CAVALO (2 casas para baixo e 1 para esquerda) usando LOOPS ANINHADOS
+    printf("\nMovimento do Cavalo (2 casas para baixo e 1 para esquerda):\n");
+    
+    // Primeira parte do L: movimento vertical (2 casas para baixo)
+    for(int movimento_vertical = 1; movimento_vertical <= 2; movimento_vertical++) {
+        printf("Baixo\n");
+    }
+    
+    // Segunda parte do L: movimento horizontal (1 casa para esquerda)
+    int movimento_horizontal = 1;
+    while(movimento_horizontal <= 1) {
+        printf("Esquerda\n");
+        movimento_horizontal++;
+    }
+
     return 0;
 }
